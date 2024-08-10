@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background-color: #343a40;
+    padding: 120px 20px;
+    margin-bottom: 0;
+}
+
+.jumbotron h1, .jumbotron p {
+    color: white;
+}
+
+.jumbotron .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.jumbotron .btn:hover {
+    background-color: #0056b3;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+footer {
+    margin-top: 50px;
+}

@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Association JDR</title>
-    <!-- Intégration de Bootstrap CSS -->
+    <title>Contact - Association JDR</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <!-- Barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Association JDR</a>
+            <a class="navbar-brand" href="index.html">Association JDR</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
@@ -28,7 +26,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Événements</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -36,41 +34,31 @@
         </div>
     </nav>
 
-    <!-- Section Hero -->
-    <header class="jumbotron jumbotron-fluid text-white text-center" style="background-color: #343a40;">
-        <div class="container">
-            <h1 class="display-4">Bienvenue à l'Association JDR</h1>
-            <p class="lead">Plongez dans des aventures épiques et partagez votre passion du jeu de rôle.</p>
-            <a href="about.html" class="btn btn-primary btn-lg">En savoir plus</a>
-        </div>
-    </header>
-
-    <!-- Section des événements -->
     <section class="container my-5">
-        <h2 class="text-center mb-4">Prochains Événements</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-body">
-                        <h5 class="card-title">Nom de l'événement</h5>
-                        <p class="card-text">Date : 12 août 2024</p>
-                        <p class="card-text">Description rapide de l'événement.</p>
-                        <a href="events.html" class="btn btn-outline-primary">Voir tous les événements</a>
-                    </div>
-                </div>
+        <h2 class="text-center mb-4">Nous Contacter</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
             </div>
-            <!-- Ajouter d'autres cartes d'événements ici -->
-        </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
             <p>&copy; 2024 Association JDR. Tous droits réservés.</p>
         </div>
     </footer>
 
-    <!-- Intégration de Bootstrap JS et dépendances -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
